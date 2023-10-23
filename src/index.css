@@ -1,0 +1,43 @@
+.kanban-board {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.column h2 {
+  text-align: center;
+}
+
+.column-content {
+  min-height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.todocolumn{
+  background-color: rgb(100, 204, 100);
+}
+.progresscolumn{
+  background-color: rgb(218, 175, 127);
+}
+.donecolumn{
+  background-color: rgb(15, 33, 231);
+}
